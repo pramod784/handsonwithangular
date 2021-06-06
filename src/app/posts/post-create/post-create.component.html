@@ -1,0 +1,18 @@
+<!-- <form> -->
+  <mat-card>
+    <mat-form-field>
+      <textarea matInput name="post_content" [(ngModel)]="myContent" rows="10"></textarea>
+    </mat-form-field>
+    <button
+    mat-button
+    mat-raised-button
+    (click)="onAddPost()"
+    color="warn"
+    >Click Me</button>
+  </mat-card>
+  <br>
+<!-- </form> -->
+
+<h2>{{ myContent }}</h2>
+<br>
+<h3>{{ usermessage }}</h3>
